@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    color:rgb(122, 204, 245) ;
+    
+
+}
+img{
+    width: 100px;
+    
+}
+.logo{
+    width: 30px;
+    margin: 10px 10px 10px 50px;
+    
+}
+
+header ul{
+    list-style: none;
+display: flex;
+flex-direction: row;
+}
+header ul li{
+    margin: 40px 40px 10px 50px;
+
+}
+
+ 
+
+.cuerpo1 p{
+    font-size: large;
+    margin-top: 50px;
+margin-bottom: 50px;
+margin-right: 50px;
+margin-left: 50px;
+
+}
+.cuerpo1{
+    display: flex;
+flex-direction: row;
+width: 100%;
+margin-top: 80px;
+border-radius: 10px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    justify-content: space-between;
+background-color: rgb(163, 223, 253);
+font-family: "Montserrat", sans-serif;
+color:rgb(23, 81, 110) ;
+
+}
+
+.frase{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 80px;
+    border-radius: 10px;
+        margin-bottom: 100px;
+        margin-right: 80px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    color: rgb(227, 117, 120);
+}
+.frase p{ 
+
+   font-size: xx-large;
+font-weight: 200;
+text-align: center;
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 50px;
+margin-top: 50px;
+
+}
+
+.video{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+    
+}
+
+.carousel-inner{
+    margin-top: 20px;
+}
+
+
+
+
+.footer1{
+width: 100%;
+ background-color: rgb(226, 225, 225);
+}
+
+.footer1 .grupo1 {
+  width: 100%; 
+  max-width: 1200px; 
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.footer1 .grupo1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-family:  "Montserrat", sans-serif;
+}
+
+.footer1 .grupo1 .box figure img{
+width: 250px;
+}
+
+.footer1 .grupo1 .box h2{
+   color: rgb(23, 81, 110); 
+   margin-bottom:0px ;
+   font-size: 20px;
+   font-family:  "Montserrat", sans-serif;
+   margin-top: 50px;
+}
+.footer1 .grupo1 .box p{
+    color:  rgb(23, 81, 110);
+    margin-bottom: 10px;
+    font-family:  "Montserrat", sans-serif;
+    margin-top: 100px;
+    
+}
+
+.footer1 .grupo1 .redsocial ul{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color:rgb(23, 81, 110) ;
+    margin-right: 10px;
+    text-align: center;
+transition: all 300ms ease;
+margin-top: 20px;
+flex-direction: row;
+
+}
+
+   
+.footer1 .grupo2 {
+ background-color: rgb(226, 225, 225);
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(23, 81, 110);
+    font-family:  "Montserrat", sans-serif;
+    margin-top: 10px;
+}
+
+.footer1 .grupo2 small{
+    font-size: 15px;
+    font-family:  "Montserrat", sans-serif;
+}
+
+
+
+
