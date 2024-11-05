@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(114, 87, 114);
+    width: 100%;
+}
+img{
+    width: 150px;
+
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+
+h1{
+font-size: 50px;
+color: black;
+font-family: "Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 14px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+p{
+    font-size: 20px;
+    color: rgb(1, 1, 1);
+}
+
+.presentacion h1{
+    font-size: 35%;
+    color: rgb(30, 29, 29);
+}
+.presentacion p{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#nosotros {
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+#nosotros iframe{
+padding: 10px;
+margin: 10px;
+}
+    
+    
+.contenedor{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 50%;
+margin: 2px 0 2px 0;
+background-color: rgb(127, 124, 124);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja img{
+    border-radius: 100%;
+}
+
+.caja p{
+    font-size: 12px;
+}
